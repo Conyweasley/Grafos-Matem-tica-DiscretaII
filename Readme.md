@@ -8,7 +8,7 @@ datos, como el número de vertices y lados, los grados de cada vertice, y cuales
 ### Testeo
 Deben testear la funcionalidad de cada una de las funciones que programan. Hay una lista de grafos de ejemplos para testear la funciones sobre ellos.
 
-#Primera Parte
+# Primera Parte
 ## Estructura del Grafo
 GrafoSt es la estructura que contiene toda la información sobre el grafo necesaria para correr las funciones pedidas. 
 Contiene:
@@ -49,7 +49,7 @@ Las funciones detalladas en esta sección y las que siguen deben ser todas O(1):
 * ImportarColores
 
 Que hace cada una de estas funciones está especificado en APIG24.h
-#Segunda Parte
+# Segunda Parte
 Estas funciones están pensadas para correr con cualquier implementacion de la primera parte que cumpla las especificaciones. Por lo tanto las funciones definidas aca usan las funciones definidas en la parte 1 PERO NO la estructura interna del grafo.
 
 ## Greedy: Coloreo
