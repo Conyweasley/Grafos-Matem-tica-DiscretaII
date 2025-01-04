@@ -8,6 +8,53 @@ datos, como el número de vertices y lados, los grados de cada vertice, y cuales
 ### Testeo
 Deben testear la funcionalidad de cada una de las funciones que programan. Hay una lista de grafos de ejemplos para testear la funciones sobre ellos.
 
+## Input
+
+El programa toma grafos expresados en un formato DIMACS simplificado de la siguiente manera:
+ 
+ Las primeras lineas permite de forma opcional tener comentarios empezando con el caracter c
+ ```
+  c This line is a comment.
+  c This one too
+  ```
+ 
+ Luego se deben especificar el número de vertices n y el numero de aristas m con el formato `p edge n m`, por ejemplo para un vertice con 6 vertices y 8 aristas:
+
+```
+p edge 6 8
+```
+
+Por último se deben incluir las aristas siguiendo el formato `e vertice1 vertice2` en donde vertice1, vertice2 son naturales que representan vertices
+```
+e  1  2
+e  1  3
+e  2  3
+e  2  4
+e  3  5
+e  4  5
+e  4  6
+e  5  6
+```
+
+Poniendolo todo junto el siguiente archivo
+```
+c This line is a comment.
+c This one too
+p edge 6 8
+e  1  2
+e  1  3
+e  2  3
+e  2  4
+e  3  5
+e  4  5
+e  4  6
+e  5  6
+```
+
+Representa al siguiente grafo
+
+![ExampleFlowNetwork](/grafos_prueba/ExampleFlowNetwork.png)
+
 # Primera Parte
 ## Estructura del Grafo
 GrafoSt es la estructura que contiene toda la información sobre el grafo necesaria para correr las funciones pedidas. 
